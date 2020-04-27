@@ -1,3 +1,5 @@
+#customer to meal, waiter to meal, so customer to waiter
+
 class Waiter
 attr_accessor :name, :yrs_experience 
 @@all = []
