@@ -23,6 +23,6 @@ def meals
 end
 
 def best_tipper
-Meal.all
+self.meals.select {|meal| meal.tip == 
 end
 end
