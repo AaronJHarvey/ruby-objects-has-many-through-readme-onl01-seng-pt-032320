@@ -23,6 +23,8 @@ def meals
 end
 
 def best_tipper
-self.meals.select {|meal| meal.tip == 
+  best_tipped_meal = meals.max {|meal a, meal b| meal_a.tip<=> meal_b.tip}
+end
+
 end
 end
